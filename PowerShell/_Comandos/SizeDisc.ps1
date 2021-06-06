@@ -1,0 +1,1 @@
+Get-Volume  | Format-Table DriveLetter, FileSystemLabel, @{n="Size";e={[math]::Round($_.Size/1GB,2)}},@{n="SizeRemaining";e={[math]::Round($_.SizeRemaining/1GB,2)}}

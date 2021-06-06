@@ -1,0 +1,17 @@
+Comandos Clave
+Get-Module
+Remove-Module
+
+Listado variables de entorno, al copiar el archivo psm1 en una de esas carpetas se auto carga el script,
+y se puede llamar la funcion desde cualquier lugar
+
+$env:PSModulePath
+C:\Users\Administrador\Documents\WindowsPowerShell\Modules;
+C:\Program Files\WindowsPowerShell\Modules;
+C:\Windows\system32\WindowsPowerShell\v1.0\Modules;
+D:\Program Files\Microsoft Azure AD Sync\Bin\;
+C:\Program Files\Microsoft Azure AD Connect Health Sync Agent\PowerShell\
+
+#
+Domina la powershell - Parte 8 - Como crear, y usar módulos en la Poweshell
+https://www.youtube.com/watch?v=vFctB2O2IOI

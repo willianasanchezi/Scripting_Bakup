@@ -1,0 +1,4 @@
+Logs guardarlos en el visor de eventos?
+Documento estandar creacion usuarios
+
+Revisar cuando el apellido o nombre tiene un espacio

@@ -1,0 +1,16 @@
+# Step to Step
+Leer archivo de excel
+Identificar los nombres de las pestañas
+ingresar por pestaña y basado en el nombre de la empresa crear un libro en excel
+en el libro agregar una hoja con el nombre de la regla y en la pestaña el detalle de la regla incumplida
+leer todas las pestañas y si la empresa tiene otra regla incumplidad crear una nueva pestaña con la otra regla
+al finalizar de leer las hojas y creados los libros con los nombre de empresa generarle un hash al archivo
+crear un correo y adjuntar el libro por empresa creado y numero de hash
+* antes de enviar el correo validar si hay correos recibidos con referencia a la correcion para no enviarlo y analizar la informacion o lo que indiquen en MINTIC
+
+Crear un logs con el nombre de la empresa la regla incumplidad y fecha de envio del correo
+
+# Insumo:
+Archivo con las reglas incumplidas
+Archivo con los nombres de la empresas y correos
+Archivo con la nomenclaura de las reglas y el detalla

@@ -1,0 +1,7 @@
+En el caso de estar bloqueada por politicas las caracteristicas de Windows
+
+gpedit
+Directivas Equipo Local\
+Plantillas Administrativas\
+Sistema\
+Especificar la configuracion para la instalacion de componentes opcionales y la reperacion de componentes

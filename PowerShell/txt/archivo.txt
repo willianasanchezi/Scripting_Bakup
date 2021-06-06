@@ -1,0 +1,7 @@
+﻿GR193687	Infraestructura Directorio Activo Modificacion Vigente	Johan Steeven Mariño Sánchez	New	Low	
+GR193900	SYA_Gestion_de_cobro_Solicitudes_varias_Solicitud_de_Asesoria_funcional_Vigente	Grupo Cubo Ltda	New	Medium	
+GR194150	SYA_Gestion_de_cobro_Solicitudes_varias_Solicitud_de_Asesoria_funcional_Vigente	Grupo Cubo Ltda	New	Low	
+GR194269	SYA_Office_365_Outlook_Asesoria_en_configuracion_Vigente	Aldemar Ruiz Palacios	New	Low	
+GR194295	Infraestructura_Administracion_de_Aplicaciones_Vigente	Helder Vicente Ceron Diaz	New	Low	
+GR193539	Cambio Clave	Portal de Servicios	New	Low	
+GR193734	Solicitud Cambio de Aprobador	Cindy Naydu Lozano Sanchez	New	Low	

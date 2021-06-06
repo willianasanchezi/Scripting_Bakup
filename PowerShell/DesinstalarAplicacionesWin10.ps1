@@ -1,0 +1,1 @@
+Install-Package -Name “.\GoogleEarthPro.msi”

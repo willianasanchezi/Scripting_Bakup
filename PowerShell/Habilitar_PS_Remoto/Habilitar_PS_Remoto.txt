@@ -1,0 +1,11 @@
+WinRM quickconfig
+Set-ExecutionPolicy RemoteSigned
+
+# Para conectarse se requiere
+Puertos: 5985, 5986
+Servicio: WinRM
+Usuario con el que se conecta debe ser administrador del equipo
+#
+
+Ejecutar cmd desde PowerShell
+cmd /c net localgroup administrators

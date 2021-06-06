@@ -1,0 +1,10 @@
+Office 365: Como exportar todos los integrantes de todos los Grupos de Office 365 a CSV!
+https://jcgonzalezmartin.wordpress.com/2017/06/30/office-365-como-exportar-todos-los-integrantes-de-todos-los-grupos-de-office-365-a-csv/
+
+https://docs.microsoft.com/es-es/office365/enterprise/powershell/why-you-need-to-use-office-365-powershell
+https://support.office.com/es-es/article/powershell-para-administradores-de-office-365-40fdcbd4-c34f-42ab-8678-8b3751137ef1
+
+https://support.office.com/es-es/article/asignar-un-nuevo-propietario-a-un-grupo-hu%C3%A9rfano-86bb3db6-8857-45d1-95c8-f6d540e45732
+https://docs.microsoft.com/es-es/office365/enterprise/powershell/manage-office-365-groups-with-powershell
+https://docs.microsoft.com/en-us/powershell/module/exchange/users-and-groups/Get-UnifiedGroup?view=exchange-ps
+https://docs.microsoft.com/en-us/powershell/module/exchange/mailboxes/Set-UserPhoto?view=exchange-ps

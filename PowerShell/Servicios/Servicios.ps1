@@ -1,0 +1,1 @@
+Get-WmiObject win32_service | Where-Object {$_.displayname -like "*system center*"} | Format-Table name, startname, startmode
