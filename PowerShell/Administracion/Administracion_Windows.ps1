@@ -186,8 +186,8 @@ Get-Alias
 Get-Content c:\listado.txt | %{Write-Host -ForegroundColor Green $_.} 
 
 # Conectarse a un servidor con PowerShell
-Enter-PSSession 'eneldo.aitsoporte.local' -Credential:'mincom\scsmadm'
-Enter-PSSession 'PAAD2714.aitsoporte.local' -Credential:'mintic\usr.sccmadm'
+Enter-PSSession 'eneldo.aitsoporte.local' -Credential:'aitsoporte\scsmadm'
+Enter-PSSession 'PAAD2714.aitsoporte.local' -Credential:'aitsoporte\usr.sccmadm'
 
 
 # Listar Clases
@@ -286,7 +286,7 @@ Unidades de Red
 #>
 Get-PSDrive
 # Conectar Unidad de Red
-New-PSSession -ComputerName "curcuma.aitsoporte.local" -Credential "mintic\usr.sccmadm"
+New-PSSession -ComputerName "curcuma.aitsoporte.local" -Credential "aitsoporte\usr.sccmadm"
 New-PSDrive -Name "P" -PSProvider "FileSystem" -Root "\\Server01\Public"
 
 <#
@@ -408,7 +408,7 @@ $url = "http://templaurel/Reports_SMDATAWAREHOUSE/Pages/Report.aspx?ItemPath=%2f
 Invoke-WebRequest $url -UseBasicParsing -Method Get -Credential mincom\wsanchez
 
 $url = "http://templaurel/Reports_SMDATAWAREHOUSE/Pages/Report.aspx?ItemPath=%2fSystemCenter%2fServiceManager%2fConsultas%2fSCSMEstadoPlataforma"
-Invoke-WebRequest $url -Method Get -Credential mincom\scsmadm
+Invoke-WebRequest $url -Method Get -Credential aitsoporte\scsmadm
 <##>
 
 <# Conectarse a un equipo por PS #>

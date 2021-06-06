@@ -1,7 +1,7 @@
 Clear-Host
-# Agregar usuario en el administrador de credenciales mintic\usr.sccmadm y servidor cardamomo.aitsoporte.local
+# Agregar usuario en el administrador de credenciales aitsoporte\usr.sccmadm y servidor cardamomo.aitsoporte.local
 # para poder ejecutar comandos remotos sin necesidad de utilizar el comando Enter-PSSession 
-# Enter-PSSession cardamomo.aitsoporte.local -Credential mintic\usr.sccmadm
+# Enter-PSSession cardamomo.aitsoporte.local -Credential aitsoporte\usr.sccmadm
 
 <# Tamaño discos #>
 Invoke-Command -ComputerName curcuma.aitsoporte.local {Get-Volume}

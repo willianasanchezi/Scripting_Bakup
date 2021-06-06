@@ -11,4 +11,4 @@ Get-Item WSMan:\localhost\Client\TrustedHosts
 
 Enter-PSSession 'camamila.aitsoporte.local' -Credential:'mincom\sccmadm'
 Enter-PSSession 'camamila.aitsoporte.local' -Port 5986 -Credential:'mincom\sccmadm'
-Enter-PSSession 'curcuma.aitsoporte.local' -Credential:'mintic\usr.sccmadm'
+Enter-PSSession 'curcuma.aitsoporte.local' -Credential:'aitsoporte\usr.sccmadm'
