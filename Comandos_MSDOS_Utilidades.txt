@@ -1,0 +1,352 @@
+PROGRAMAS DEL PANEL DE CONTROL
+
+ 
+
+    Agregar nuevo hardware   ->   control sysdm.cpl
+    Add/Remove Programs   ->   control appwiz.cpl
+    Propiedades de Fecha y Hora   ->   control timedate.cpl
+    Propiedades de pantalla   ->   control desk.cpl
+    FindFast   ->   control findfast.cpl
+    Carpeta de Fuentes   ->   control fonts
+    Propiedades de Internet   ->   control inetcpl.cpl
+    Propiedades de Joystick   ->   control joy.cpl
+    Propiedades de teclado   ->   control main.cpl keyboard
+    Microsoft Exchange/mensageria de W.   ->   control mlcfg32.cpl
+    Oficina de correo de Microsoft Mail   ->   control wgpocpl.cpl
+    Propiedades de módem   ->   control modem.cpl
+    Propiedades de Mouse   ->   control main.cpl
+    Propiedades de Multimedia   ->   control mmsys.cpl
+    Propiedades de red   ->   control netcpl.cpl
+    NOTA: en Windows NT 4.0   ->   es Ncpa.cpl, no netcpl.cpl
+    Propiedades de Contraseña   ->   control password.cpl
+    PC Card   ->   control main.cpl pc card (PCMCIA)
+    Admin. energía de Windows 95   ->   control main.cpl power
+    Admin. energía Windows 98   ->   control powercfg.cpl
+    Carpeta de impresoras   ->   control printers
+    Configuración regional   ->   control intl.cpl
+    Escáneres y cámaras   ->   control sticpl.cpl
+    Propiedades de sonido   ->   control mmsys.cpl rounds
+    Propiedades del sistema   ->   control sysdm.cpl
+    Herramienta Usuarios   ->   control Ncpa.cpl users
+    Nota: en Windows 95/98/Me   ->   control inetcpl.cpl users
+    Opciones de accesibilidad   ->   control access.cpl
+    Usuario, administrador de cuenta  ->  nusrmgr.cpl
+    Windows Firewall  ->  firewall.cpl
+    Teléfono y Modem, opciones  ->  telephon.cpl
+    Sistema, propiedades  ->   sysdm.cpl
+    Security Center  ->   wscui.cpl
+    Regional, configuración  ->   intl.cpl
+    Quicktime  ->   QuickTime.cpl
+    DirectX, panel de control   ->   directx.cpl
+    Password, propiedades  ->   password.cpl
+    Pantalla, propiedades  ->   desk.cpl y control desktop
+    Nview Desktop Manager  ->   nvtuicpl.cpl
+    Joystick, Controladores   ->   joy.cpl
+    Ratón  ->  main.cpl
+    Java, Panel de control   ->   jpicpl32.cpl y javaws
+    conexiones de red   ->   ncpa.cpl
+    Red, asistente de configuración  ->   netsetup.cpl
+    Internet, propiedades   ->   inetcpl.cpl
+    Energía, opciones y configuración   ->   powercfg.cpl
+    Búsqueda rápida   ->   findfast.cpl
+    Audio, abrir el AC3 Filter  ->   ac3filter.cpl
+    Audio y Sonido   ->   mmsys.cpl
+    Añadir hardware, asistente   ->   hdwwiz.cpl
+    Añadir/desinstalar programas   ->   appwiz.cpl
+    Accesibilidad, controles   ->   access.cpl
+    Actualizaciones automáticas   ->   wuaucpl.cpl
+    Escáneres y Cámaras   ->   sticpl.cpl
+    ODBC Data Source Administrator  ->   odbccp32.cpl
+    Pantalla  ->  desk.cpl y control desktop
+    Nview Desktop Manager (si está instalado) = nvtuicpl.cpl
+    Opciones de accesibilidad = access.cpl
+    Opciones regionales y de idioma = intl.cpl
+
+Administración / consolas
+
+ 
+
+    Administración de equipos   ->   compmgmt.msc
+    Administración del dispositivo   ->   devmgmt.msc
+    Administrador de tareas   ->   taskmgr
+    Administrativas, Herramientas   ->   control admintools
+    Almacenamiento extraíbles  ->   ntmsmgr.msc
+    Almacenamiento ex. solicitudes del operador  ->   ntmsoprq.msc
+    Bluetooth (Asistente de transferencia)   ->   fsquirt
+    Caracteres privados, editor   ->   eudcedit
+    Carpeta, opciones   ->   control folders
+    Certificados (gestión)   ->   certmgr.msc
+    Caracteres (Mapa)   ->   charmap
+    Carpetas compartidas   ->   fsmgmt.msc
+    Check Disk Utility   ->   chkdskComponentes, servicios   ->  dcomcnfg
+    Controladores, admin drivers   ->   verifier
+    Recursos compartidos DDE   ->   ddeshare
+    Disco, desfragmentador   ->   dfrg.msc
+    Disco, administración   ->   diskmgmt.msc
+    Particiones, administrador   ->   diskpart
+    Fuentes   ->   control fonts
+    Fuentes, (carpeta)   ->   fonts
+    Group Policy Editor   ->   gpedit.msc
+    Impresoras, carpetas   ->   printers
+    Impresoras y Faxes   ->   control printers
+    Index Server, servicio   ->   ciadv.msc
+    Rendimiento del sistema, monitor  ->   perfmon.msc
+    Resultant Set of Policy (XP Profesional)  ->   rsop.msc
+    Seguridad, configuración local  ->   secpol.msc
+    SQL, configuración  ->   cliconfg
+    Sucesos, visor  ->   eventvwr.msc
+    Usuarios, administrador de cuentas  ->  control userpasswords2
+    Usuarios, cuentas  ->  control userpasswords
+    Usuarios locales y grupos  ->  lusrmgr.msc
+    Tareas programadas  ->   control schedtasks
+    Infra-estructura de gestión de Windows  ->  wmimgmt.msc
+    Opciones de carpetas  ->  control folders
+
+Utilidades
+
+    Panel de control = control
+    Ampliador de Windows (lupa)   ->   magnify
+    Apagar Windows   ->   shutdown
+    Bloc de notas   ->   notepad
+    Paint ->  pbrush
+    Wordpad  ->  write
+    Calculadora   ->   calc
+    Escritorio remoto   ->   mstsc
+    Clipboard Viewer   ->   clipbrd
+    Command Prompt   ->   cmd
+    Sistema, diagnóstico del (Dr. Watson)   ->   drwtsn32
+    Iexpress Wizard   ->   iexpress
+    Direct X, diagnóstico   ->   dxdiag
+    Comprobación de la firma del archivo   ->   sigverif
+    Disco, liberador de espacio   ->   cleanmgr
+    Microsoft Chat  ->   winchat
+    Teclado en pantalla  ->   osk
+    control de colores  ->   control color
+    Registro, editor  ->   regedit y también: regedit32
+    Sistema, utilidad de configuración  ->   msconfig
+    Utilidades, administrador  ->  utilman
+    Utilidades, administrador  ->  utilman
+    Recurso DDE = ddeshare
+    Windows Management Infrastructure  ->  wmimgmt.msc
+    Windows System Security Tool  ->  syskey
+    Tareas, lista (XP profesional)  ->   tasklist
+    Tareas, terminar (XP profesional)  ->   taskkill /PID
+    Telnet, cliente  ->  telnet
+    Windows Magnifier = magnify
+    Windows Media Player = wmplayer
+    Editor de carácter privado = eudcedit
+    Editor de configuración de sistema = sysedit
+    Explorador de Windows = explorer
+    Gestor de objectos = packager
+    Gestor de tareas de Windows = taskmgr
+    Iniciar Windows Update = wupdmgr
+    Elementos a sincronizar = mobsync
+    Internet Explorer = iexplore
+    Outlook Express = msimn
+    Windows Messenger = msmsgs
+
+Utilidades comprobación de archivos
+
+    Utilidad de verificación do disco  ->  chkdsk
+    Sistema, Escanea  ->   sfc /scannow
+    Sistema, 1 vez en el siguiente encendido  ->   sfc /scanonce
+    Sistema, en cada encendido  ->   sfc /scanboot
+    Sistema, Vuelve a la configuración por defecto  ->   sfc /revert
+    Sistema, Purga el archivo caché  ->   sfc /purgecache
+    Sistema, Configura el archivo caché a la talla x  ->   sfc /cachesize=x
+    Windows Update  ->  wupdmgr
+    Windows XP, paseo por  ->  tourstart
+    Wordpad  ->  write
+
+Redes
+
+    Redes, Configuración   ->   ipconfig /all
+    resolución de DNS (caché)   ->   ipconfig /displaydns
+    Cache DNS, borrar   ->   ipconfig /flushdns
+    DHCP, desechar   ->   ipconfig /release
+    DHCP, Renueva   ->   ipconfig /renew
+    DNS, Re-Registra   ->   ipconfig /registerdns
+    DHCP, Class ID   ->   ipconfig /showclassid
+    DHCP, Modifica Class ID   ->   ipconfig /setclassid
+    Red, conexiones  ->   control netconnections
+
+Comandos
+
+    at: Permite programar tareas para que nuestro ordenador las ejecute en una fecha o en un momento determinado.
+    logoff:: Este comando nos permite cerrar una sesión iniciada, ya sea en nuestro ordenador o en otro ordenador remoto.
+    msg:: Envía un mensaje a unos o varios usuarios determinados mediante su nombre de inicio de sesión o el identificador de su sesión
+    msiexec:: Permite instalar, desinstalar o reparar un programa instalado mediante un paquete MSI (archivos con extensión .msi).
+    runas: Permite ejecutar un programa con privilegios de otra cuenta. Útil por ejemplo si estamos como usuario limitado y queremos hacer algo que necesite privilegios de administrador.
+    shctasks: Permite administrar las tareas programadas.
+    shutdown: Permite apagar, reiniciar un ordenador o cancelar un apagado. Es especialmente útil si hemos sido infectado con el virus Blaster o una de sus variantes para cancelar la cuenta atrás. Para ello, tan sólo tendremos que utilizar la sintaxis shutdown -a.
+
+Comandos utiles para Windows Server 2003.
+
+    [C]
+    Chklnks
+    Herramienta Grafica que nos permite ver todos los links muertos que se encuentran en nuestro servidor. De la misma forma nos da la opcion de Eliminarlos.
+    Chknic
+    Permite comprobar si la tarjeta de red que tiene instalado el servidor soporta NLB (Network Load Balance).
+    CleanSpl
+    Herramienta Grafica que permite restaurar el Spooler de Impresion a su estado original. Hay que estar pendiente de usar esta herramienta, ya que elimina todos los trabajos de impresion, drivers de impresoras, colas de impresion e impresoras del servidor.
+    Cluster
+    Permite Administrar un cluster de Windows Server 2003. A travez de este comando se pueden crear, eliminar, habilitar y deshabilitar recursos en los nodos del cluster. Tambien permite reparar errores encontrados en los nodos.
+    Cluster res “NombreRecurso” /on | off
+    Habilita (on) o deshabilita (off) el recurso especificado en el cluster especificado.
+    Csvde -f Userslist.csv
+    Exporta todos los objetos usuarios y computadoras a el archivo especificado.
+    Csvde -d “OU=Usuarios,OU=Finanzas,DC=dominio,dc=com” -f UsrFnz.csv
+    Exporta los objetos de una session especificada del directorio activo.
+    Csvde -r objectclass=computer -f Computer.csv
+    Exporta todos los objetos del directorio activo especificados por el valor objectclass a un archivo. Algunos objectclass validos: USER, COMPUTER.
+    [D]
+    Dcdiag /A
+    Realiza un diagnostico a todos los controladores de dominio del Site.
+    Dcdiag /fix
+    Realiza algunas reparaciones basicas a los errores encontrados en los controladores de dominio.
+    Dcdiag /e /test:frssysvol
+    Comprueba que todos los Dc del dominio Tengan disponibles los recursos SYSVOL y NETLOGON.
+    DnsCmd /clearcache
+    Vacia de la cache del servidor de Dns los registros consultados.
+    DnsCmd /info
+    Obtiene informacion basica del servidor de Dns.
+    DnsCmd /enumzones
+    Enumera las zonas existentes en el servidor de Dns. Muestra que tipo de zonas son, donde se encuentran almacenadas.
+    [N]
+    Netdom query fsmo
+    Muestra los roles fsmo del dominio.
+    Netdom query trust
+    Muestra las relaciones de confianza del dominio.
+    Netsh DHCP show server
+    Muestra o descubre todos los servidores DHCP disponibles en la red.
+    Ntdsutil “set DSRM Password” “Reset Password on server NULL” 
+    Cambia el password DSRM de la cuenta Administrador en un controlador de dominio.
+    [P]
+    PromqryUI 
+    Permite detectar que adaptadores de red o interfaces de red se encuentran en modo promiscuo, lo cual nos puede indicar que alguien esta realizando un sniffing a nuestra red.
+    [R]
+    Repadmin /Showreps *
+    Muestra los estados de replicacion del controlador de dominio desde donde se ejecuto el comando. Solo muestra la replicacion de ese controlador de dominio con el resto de Dcs que se encuentran en el mismo site.
+    Repadmin /failcache
+    Muestra los eventos fallidos de replicacion.
+    Replmon
+    Herramienta Grafica que nos permite ver los estados de Replicacion del Directorio Activo, Forza la Replicacion y nos permite ver la topologia de los controladores de Dominio.
+    [S]
+    SetX
+    Define variables en el entorno del equipo, mas no en las del usuario.
+    Shutdown /i
+    Mediante una interfaz grafica permite apagar varios equipos al mismo tiempo.
+    Subinacl /subdirectories c:\* /cleandeletedsidsfrom=MiDominio
+    Permite revisar las acls de los directorios ubicados en la unidad c: y eliminar los SID Huerfanos o SID Muertos.
+    Es importante trabajar con la version 5.2.3790.1180 del comando Subinacl.
+    [W]
+    Wmic computersystem where “Name=’nombreviejo'” CALL Rename nombrenuevo, contraseña administrador, usuarios administrador
+    Mediante la consola permite cambiar el nombre a una estacion de trabajo. NO funciona cuando el equipo esta unido a un dominio.
+    Wmic useraccount GET name,lockout
+    Permite ver las cuentas bloqueadas.
+    Wmic /node:”machine-name” /user:”administrator” rdtoggle where (AllowTSConnections=0) call SetAllowTSConnections 1
+    Habilita escritorio remoto en la estacion de trabajo especificada. Este comando se debe ejecutar desde un servidor. Si se ejecuta desde una estacion de trabajo dara error, ya que el alias RDTOGGLE no esta presente.
+    Wmic group GET
+    Obtienes un listado de los grupos locales, incluye el SID de cada grupo.
+    Wmic datafile “c:\\Directorio\\Archivo.Doc” call takeownership
+    Reemplaza al propietario del archivo especificado. Se tienen que tener credenciales de administrador. La ruta hacia el archivo se debe especificar con doble barra (\\).
+    Wmic datafile “c:\\Directorio\\Archivo.Doc” call compress
+    Comprime el archivo especificado. Se tienen que tener credenciales de administrador. La ruta hacia el archivo se debe especificar con doble barra (\\).
+    Wmic datafile where name=”c:\\windows\\system32\\ntdll.dll” get version
+    Obtiene la version del archivo especificado.
+    Wmic computersystem where name=”NombrePC” Call joindomainorworkgroup name=”Nuevo-Grupo”
+    Une el equipo al grupo de trabajo especificado. No funciona con equipos unidos al dominio.
+
+Introducidos en 2008
+
+    auditpol: Se pueden modificar las políticas de auditoría.
+    bcdedit: Editor de la configuración de Inicio.
+    change: Configura los modos de inicio de Terminal Server.
+    chglogon: Controla el inicio de sesiones.
+    chgport: Controla el mapeo de puertos COM para compatibilidad con DOS
+    chgusr: Cambia el modo de instalación de aplicaciones.
+    choice: Te deja elegir una opción de una lista, por default [Y:N], útil para scripts.
+    clip: Se usa para redirigir la salida de un comando al portapapeles.
+    cmdkey:  Controla usuarios y contraseñas almacenados.
+    diskraid: Se accede a la ventana de Diskraid.
+    dispdiag: Se utiliza para diagnósticos, se puede generar un dump manual.
+    forfiles: Se usa para seleccionar un archivo o varios para ejecutar un comando.
+    icacls: Para controlar los ACLs de los archivos.
+    iscsicli: Inicia iSCSI
+    mklink: Crea links simbólicos o enduro. Muy similar a Linux.
+    muiunattend: Controla acciones desatendidas con interfaces de usuario múltiples.
+    netcfg: Instalador de la Red para Windows PE (WinPE)
+    ocsetup: Instalador de componentes opcionales, se usa en Server Core.
+    pkgmgr: Administrador de Paquetes Windows
+    pnpunattend: Instalación de driver online desatendida.
+    pnputil: Utilidad Microsoft Plug and Play (PnP)
+    quser: Muestra información sobre usuarios logueados al sistema.
+    robocopy: Famoso Robocopy del Resource Kit ahora incorporado en el OS.
+    rpcping: Ping a un server usando Remote Procedure Call (RPC)
+    setx: Controla variables de entorno tanto para user como para system.
+    servermanagercmd: Mismas funciones que la consola de Server Manager (GUI).
+    sxstrace: Utilidad de Tracing para Winsxs
+    takeown: Controla el Ownership del archivo.
+    timeout: Se usa como tiempo de espera para archivos batch.
+    tracerpt: Se utiliza para reportes de trace.
+    waitfor: Se usa para enviar o esperar una señal del sistema.
+    wbadmin: Controla backups y restores.
+    wceutil: Controla el colector de eventos de Windows.
+    wevtutil: Podemos administrar los eventos del equipo desde un comando.
+    where: Se usa para ubicar archivos segùn un criterio de búsqueda.
+    whoami: Trae información detallada del usuario con el que se inició la sesión.
+    winrm: Controla el Windows Remote Management.
+    winrs: Ejecuta el Windows Remote Shell.
+    winsat: Ejecuta la herramienta de auditoría.
+
+comandos en el cmd
+
+    CD Permite cambiar de un directorio activo a otro.
+    DEL Permite eliminar archivos.
+    DEFRAG Desfragmenta y optimiza un disco.
+    DIR Permite ver todos los ficheros y directorios de la ruta en la que nos encontramos.
+    FC Compara dos ficheros y verifica que las copias son exactas.
+    FIND Busca una cadena de texto en uno o más archivos.
+    FINDSTR Busca cadenas de texto en archivos.
+    FOR Ejecuta un comando para cada archivo en un conjunto de archivos.
+    FORMAT Da formato a un disco para usarse con Windows.
+    FTYPE Muestra o modifica los tipos de archivo utilizados en una asociación de archivos.
+    GOTO Direcciona el intérprete de comandos de Windows a una línea en un programa por lotes.
+    GRAFTABL Permite a Windows mostrar un conjunto de caracteres extendidos en modo gráfico.
+    HELP Proporciona información de ayuda para los comandos de Windows.
+    IF Ejecuta procesos condicionales en programas por lotes.
+    LABEL Crea, cambia o elimina la etiqueta del volumen de un disco.
+    MD Crea un directorio.
+    MKDIR Crea un directorio.
+    MODE Configura un dispositivo de sistema.
+    MORE Muestra la información pantalla por pantalla.
+    MOVE Mueve uno o más archivos de un directorio a otro en la misma unidad.
+    PATH Muestra o establece una ruta de búsqueda para archivos ejecutables.
+    PAUSE Suspende el proceso de un archivo por lotes y muestra un mensaje.
+    POPD Restaura el valor anterior del directorio actual guardado por PUSHD.
+    PRINT Imprime un archivo de texto.
+    PROMPT Cambia el símbolo de comandos de Windows.
+    PUSHD Guarda el directorio actual y después lo cambia.
+    RD Elimina un directorio.
+    RECOVER Recupera la información legible de un disco dañado o defectuoso.
+    REGEDIT Abre el editor de registros
+    REM Graba comentarios en archivos por lotes o CONFIG.SYS.
+    REN Cambia el nombre de uno o más archivos.
+    RENAME Cambia el nombre de uno o más archivos.
+    REPLACE Reemplaza archivos.
+    RMDIR Elimina un directorio.
+    SET Muestra, establece o elimina variables de entorno de Windows.
+    SETLOCAL Inicia la localización de cambios del entorno en un archivo por lotes.
+    SHIFT Cambia posición de modificadores reemplazables en archivos por lotes.
+    SORT Ordena las entradas.
+    START Inicia otra ventana para ejecutar un programa o comando.
+    SUBST Asocia una ruta de acceso con una letra de unidad.
+    SYS Crea un disco de sistema.
+    TIME Muestra o establece la hora del sistema.
+    TITLE Establece el título de la ventana de una sesión de CMD.EXE.
+    TREE Muestra gráficamente la estructura de directorios de una unidad o ruta de acceso.
+    TYPE Muestra el contenido de un archivo de texto.
+    VER Muestra la versión de Windows.
+    VERIFY Comunica a Windows si debe comprobar que los archivos se escriben de forma correcta en un disco.
+    VOL Muestra la etiqueta del volumen y el número de serie del disco.
+    XCOPY Copia archivos y árboles de directorios
