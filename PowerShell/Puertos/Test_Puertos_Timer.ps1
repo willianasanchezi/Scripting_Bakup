@@ -6,7 +6,7 @@ param(
 	Do
 	{
 		#Clear-Host
-		$resultado = Test-NetConnection curcuma.mintic.gov.co -port 80
+		$resultado = Test-NetConnection curcuma.aitsoporte.local -port 80
 		$resultado
 		
 		<# Esta parte aun no funciona

@@ -25,7 +25,7 @@ function escritorioremoto()
     #Add-Type -AssemblyName System.Windows.Forms
     start mstsc.exe
     Start-Sleep -Seconds 5
-    [System.Windows.Forms.SendKeys]::SendWait("sauco.mintic.gov.co")
+    [System.Windows.Forms.SendKeys]::SendWait("sauco.aitsoporte.local")
     Start-Sleep -Seconds 5
     [System.Windows.Forms.SendKeys]::SendWait("{ENTER}")
     Start-Sleep -Seconds 10
@@ -42,7 +42,7 @@ function escritorioremoto()
 
 
 Start-Sleep -Seconds 60
-if (Test-Connection sauco.mintic.gov.co -Count 1 -ErrorAction SilentlyContinue) 
+if (Test-Connection sauco.aitsoporte.local -Count 1 -ErrorAction SilentlyContinue) 
     { write-host "Responde a Ping, conectanse a Escritorio Remoto" 
      escritorioremoto -Clave 4dm1nc0nf1gur4t10n$
     } 
@@ -58,9 +58,9 @@ else
     }
 
 <#
-Test-Connection sauco.mintic.gov.co
+Test-Connection sauco.aitsoporte.local
 Test-Connection 127.0.0.1 -Count 1 | select * 
-Test-Connection alcandorea.mintic.gov.co
+Test-Connection alcandorea.aitsoporte.local
 #>
 
 

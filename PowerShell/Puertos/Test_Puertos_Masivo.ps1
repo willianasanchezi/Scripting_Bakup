@@ -42,7 +42,7 @@ Test Masivo ICMP incluyendo puertos
 161/tcp, 162/tcp, 22/tcp, 23/tcp, 443/tcp
 #>
 Clear-Host
-$servidores = @("CURCUMA.mintic.gov.co","violeta.mincomunicaciones.gov.co")
+$servidores = @("CURCUMA.aitsoporte.local","violeta.aitsoporte.local")
 $puertos = @(135, 139, 445)
 For ($i=0; $i -lt $servidores.Length; $i++){
     For ($j=0; $j -lt $puertos.Length; $j++){
@@ -59,7 +59,7 @@ Boleano
 #>
 Clear-Host
 $servidores = @("127.0.0.1","133.1.1.1")
-# $servidores = @("CURCUMA.mintic.gov.co","violeta.mincomunicaciones.gov.co")
+# $servidores = @("CURCUMA.aitsoporte.local","violeta.aitsoporte.local")
 $puertos = @(135, 139, 445)
 $rutaLog = "C:\Windows\Temp\Config\LogTest.log"
 

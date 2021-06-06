@@ -23,7 +23,7 @@ paralleltest
 
 
 workflow pingParalelo{
-$Servidores = @("violeta.mincomunicaciones.gov.co","eneldo.mincomunicaciones.gov.co")
+$Servidores = @("violeta.aitsoporte.local","eneldo.aitsoporte.local")
 ForEach -Parallel ( $Servidor in $Servidores) 
     {
     Test-NetConnection $Servidor -port 3389

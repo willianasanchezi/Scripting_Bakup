@@ -7,7 +7,7 @@ param(
 }
 
 function SMImportModulo (){
-	Invoke-Command -ComputerName doradilla.mintic.gov.co {
+	Invoke-Command -ComputerName doradilla.aitsoporte.local {
 	$Projection = Get-SCSMTypeProjection Microsoft.SystemCenter.Orchestrator.RunbookAutomationActivity.Projection
 	}
 }

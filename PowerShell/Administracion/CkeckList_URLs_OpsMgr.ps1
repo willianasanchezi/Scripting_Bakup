@@ -6,8 +6,8 @@ Invoke-WebRequest $url -Method Get -Credential dominio\usuario
 
 $urls = ("http://enula/webkactus/",
 "https://portal3.siifnacion.gov.co/dana-na/auth/url_45/welcome.cgi",
-"https://serviciosti.mintic.gov.co/View/cca5abda-6803-4833-accd-d59a43e2d2cf",
-"http://subsidios.mintic.gov.co/admin/login"
+"https://serviciosti.aitsoporte.local/View/cca5abda-6803-4833-accd-d59a43e2d2cf",
+"http://subsidios.aitsoporte.local/admin/login"
 ) # Array
 
 function urldisponible($estadourl)

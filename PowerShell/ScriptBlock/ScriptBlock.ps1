@@ -1,5 +1,5 @@
 $query = "a"
-Invoke-Command -ComputerName drosera.mintic.gov.co -ScriptBlock { 
+Invoke-Command -ComputerName drosera.aitsoporte.local -ScriptBlock { 
     param ($query)
     Write-Host $query
   } -ArgumentList $query 

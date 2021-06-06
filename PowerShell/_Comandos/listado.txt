@@ -1,3 +1,3 @@
-ajenjo.mincomunicaciones.gov.co
-balsamo.mincomunicaciones.gov.co
-eneldo.mincomunicaciones.gov.co
+ajenjo.aitsoporte.local
+balsamo.aitsoporte.local
+eneldo.aitsoporte.local

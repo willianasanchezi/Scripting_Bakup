@@ -56,7 +56,7 @@ GivenName                            : Willian Antonio
 HomeDirectory                        :
 HomedirRequired                      : False
 HomeDrive                            :
-HomePage                             : www.mintic.gov.co
+HomePage                             : www.aitsoporte.local
 HomePhone                            :
 Initials                             :
 instanceType                         : 4
@@ -153,7 +153,7 @@ uSNChanged                           : 26211782
 uSNCreated                           : 19153
 whenChanged                          : 10/10/2020 2:20:37 p.m.
 whenCreated                          : 11/04/2016 8:01:58 a.m.
-wWWHomePage                          : www.mintic.gov.co
+wWWHomePage                          : www.aitsoporte.local
 PropertyNames                        : {AccountExpirationDate, accountExpires, AccountLockoutTime,
                                        AccountNotDelegated...}
 AddedProperties                      : {}

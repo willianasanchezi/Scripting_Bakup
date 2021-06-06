@@ -1,3 +1,3 @@
-Enter-PSSession eneldo.mincomunicaciones.gov.co -Credential mincom\scsmadm
-Invoke-Command -ComputerName eneldo.mincomunicaciones.gov.co {get-service -name winrm}
-Invoke-Command -ComputerName eneldo.mincomunicaciones.gov.co -FilePath E:\Sync\Scripting\PowerShell\Conexion\test.ps1
+Enter-PSSession eneldo.aitsoporte.local -Credential mincom\scsmadm
+Invoke-Command -ComputerName eneldo.aitsoporte.local {get-service -name winrm}
+Invoke-Command -ComputerName eneldo.aitsoporte.local -FilePath E:\Sync\Scripting\PowerShell\Conexion\test.ps1

@@ -56,9 +56,9 @@ $usuario = @(Get-ADUser -filter {Enabled -eq 'True'} -properties * | select-obje
 for ($i = 0; $i -le ($usuario.length - 1); $i += 1) {
 	$query = "insert into Test02 (Texto01, Texto02) values ( '" + $i + "' , '" + $usuario[$i].name + "');"
 	Write-Host $query
-	Invoke-Command -ComputerName drosera.mintic.gov.co -ScriptBlock { 
+	Invoke-Command -ComputerName drosera.aitsoporte.local -ScriptBlock { 
 		param ($query)
-		Invoke-Sqlcmd -Query $query -ServerInstance "drosera.mintic.gov.co\SCORCH" -Database "AD" 
+		Invoke-Sqlcmd -Query $query -ServerInstance "drosera.aitsoporte.local\SCORCH" -Database "AD" 
 		} -ArgumentList $query
   }
   
@@ -76,9 +76,9 @@ for ($i = 0; $i -le ($usuario.length - 1); $i += 1) {
   $falta = $Count -$i
   Write-Host "Faltan insertar: " $falta "registros."
   #Write-Host $query
-  Invoke-Command -ComputerName drosera.mintic.gov.co -ScriptBlock { 
+  Invoke-Command -ComputerName drosera.aitsoporte.local -ScriptBlock { 
     param ($query)
-    Invoke-Sqlcmd -Query $query -ServerInstance "drosera.mintic.gov.co\SCORCH" -Database "AD" 
+    Invoke-Sqlcmd -Query $query -ServerInstance "drosera.aitsoporte.local\SCORCH" -Database "AD" 
     } -ArgumentList $query
   }
   
@@ -95,9 +95,9 @@ for ($i = 0; $i -le ($usuario.length - 1); $i += 1) {
   $falta = $Count -$i
   Write-Host "Faltan insertar: " $falta "registros."
   #Write-Host $query
-  Invoke-Command -ComputerName drosera.mintic.gov.co -ScriptBlock { 
+  Invoke-Command -ComputerName drosera.aitsoporte.local -ScriptBlock { 
     param ($query)
-    Invoke-Sqlcmd -Query $query -ServerInstance "drosera.mintic.gov.co\SCORCH" -Database "AD" 
+    Invoke-Sqlcmd -Query $query -ServerInstance "drosera.aitsoporte.local\SCORCH" -Database "AD" 
     } -ArgumentList $query
   }
 
@@ -115,9 +115,9 @@ for ($i = 0; $i -le ($usuario.length - 1); $i += 1) {
   $falta = $Count -$i
   Write-Host "Faltan insertar: " $falta "registros."
   #Write-Host $query
-  Invoke-Command -ComputerName drosera.mintic.gov.co -ScriptBlock { 
+  Invoke-Command -ComputerName drosera.aitsoporte.local -ScriptBlock { 
     param ($query)
-    Invoke-Sqlcmd -Query $query -ServerInstance "drosera.mintic.gov.co\SCORCH" -Database "AD" 
+    Invoke-Sqlcmd -Query $query -ServerInstance "drosera.aitsoporte.local\SCORCH" -Database "AD" 
     } -ArgumentList $query, $codBloque
   }
   

@@ -3,7 +3,7 @@ param($interval = 30)
     do {
 		clear-host
 		get-date
-        ping curcuma.mintic.gov.co
+        ping curcuma.aitsoporte.local
         Start-Sleep -Seconds $interval
         } until ( [System.Console]::KeyAvailable )
 }

@@ -34,7 +34,7 @@ Start-Process PowerShell_ISE -Verb RunAs # Ejecutar como administrador
 
 ##
 Get-Service | clip
-Test-NetConnection violeta.mincomunicaciones.gov.co -port 445
+Test-NetConnection violeta.aitsoporte.local -port 445
 
 Get-NetIPAddress
 
@@ -45,7 +45,7 @@ Get-ChildItem E:\Sync\Desarrollo\JupiterNotebook
 Clear-Host
 $puertos = @(135, 139, 445)
 For ($i=0; $i -lt $puertos.Length; $i++){
-    $resultado = Test-NetConnection curcuma.mintic.gov.co -port $puertos[$i]
+    $resultado = Test-NetConnection curcuma.aitsoporte.local -port $puertos[$i]
     $resultado
 }
 
@@ -57,7 +57,7 @@ Clear-Host
 
 $puertos = @(135, 139, 445)
 For ($i=0; $i -lt $puertos.Length; $i++){
-    $resultado = Test-NetConnection curcuma.mintic.gov.co -port $puertos[$i]
+    $resultado = Test-NetConnection curcuma.aitsoporte.local -port $puertos[$i]
     $resultado
 }
 
@@ -66,7 +66,7 @@ For ($i=0; $i -lt $puertos.Length; $i++){
 <# Inicio for anidado #>
 
 Clear-Host
-$servidores = @("CURCUMA.mintic.gov.co","violeta.mincomunicaciones.gov.co")
+$servidores = @("CURCUMA.aitsoporte.local","violeta.aitsoporte.local")
 $puertos = @(135, 139, 445)
 For ($i=0; $i -lt $servidores.Length; $i++){
     For ($j=0; $j -lt $puertos.Length; $j++){
@@ -77,19 +77,19 @@ For ($i=0; $i -lt $servidores.Length; $i++){
 
 <# Fin for anidado #>
 
-Test-NetConnection curcuma.mintic.gov.co -port 445
+Test-NetConnection curcuma.aitsoporte.local -port 445
 
 # Ping Masivo
 <# Puertos Compartir archivos e impresoras 135, 139, 445 #>
 Clear-Host
-$servidores = @("ENELDO.mincomunicaciones.gov.co","CILANTRO.mintic.gov.co",
-"PALIURE.mintic.gov.co",
-"doradilla.mintic.gov.co",
-"TIBUCHINA.mintic.gov.co",
-"DUBOISIA.mintic.gov.co",
-"SRV-SSRS1.mintic.gov.co",
-"SRV-SSIS1.mintic.gov.co",
-"SRV-SSAS1.mintic.gov.co")
+$servidores = @("ENELDO.aitsoporte.local","CILANTRO.aitsoporte.local",
+"PALIURE.aitsoporte.local",
+"doradilla.aitsoporte.local",
+"TIBUCHINA.aitsoporte.local",
+"DUBOISIA.aitsoporte.local",
+"SRV-SSRS1.aitsoporte.local",
+"SRV-SSIS1.aitsoporte.local",
+"SRV-SSAS1.aitsoporte.local")
 For ($i=0; $i -lt $servidores.Length; $i++) {
     $resultado = Test-Connection $servidores[$i]
     $servidores[$i], $resultado
@@ -100,8 +100,8 @@ For ($i=0; $i -lt $servidores.Length; $i++) {
 <# Test puerto base de datos #>
 
 Clear-Host
-$servidores = @("templaurela.mincomunicaciones.gov.co","AJEDREA.mintic.gov.co",
-"DROSERA.mintic.gov.co")
+$servidores = @("templaurela.aitsoporte.local","AJEDREA.aitsoporte.local",
+"DROSERA.aitsoporte.local")
 For ($i=0; $i -lt $servidores.Length; $i++) {
     $resultado = Test-NetConnection $servidores[$i] -Port 1433
     $servidores[$i], $resultado
@@ -186,8 +186,8 @@ Get-Alias
 Get-Content c:\listado.txt | %{Write-Host -ForegroundColor Green $_.} 
 
 # Conectarse a un servidor con PowerShell
-Enter-PSSession 'eneldo.mincomunicaciones.gov.co' -Credential:'mincom\scsmadm'
-Enter-PSSession 'PAAD2714.mintic.gov.co' -Credential:'mintic\usr.sccmadm'
+Enter-PSSession 'eneldo.aitsoporte.local' -Credential:'mincom\scsmadm'
+Enter-PSSession 'PAAD2714.aitsoporte.local' -Credential:'mintic\usr.sccmadm'
 
 
 # Listar Clases
@@ -286,7 +286,7 @@ Unidades de Red
 #>
 Get-PSDrive
 # Conectar Unidad de Red
-New-PSSession -ComputerName "curcuma.mintic.gov.co" -Credential "mintic\usr.sccmadm"
+New-PSSession -ComputerName "curcuma.aitsoporte.local" -Credential "mintic\usr.sccmadm"
 New-PSDrive -Name "P" -PSProvider "FileSystem" -Root "\\Server01\Public"
 
 <#
@@ -310,7 +310,7 @@ $unidad = New-Object -ComObject wscript.network
 $unidad | Get-Member
 #>
 $unidad = New-Object -ComObject wscript.network
-$unidad.MapNetworkDrive("Z:","\\curcuma.mintic.gov.co\Software_library", $false, "mintic\wsanchez", "")
+$unidad.MapNetworkDrive("Z:","\\curcuma.aitsoporte.local\Software_library", $false, "mintic\wsanchez", "")
 
 #
 ###
@@ -396,7 +396,7 @@ finally
 <# Test URL 
 https://www.petri.com/testing-uris-urls-powershell
 #>
-$url = "http://subsidios.mintic.gov.co/admin/login"
+$url = "http://subsidios.aitsoporte.local/admin/login"
 Invoke-WebRequest $url -UseBasicParsing -Method Head
 <##>
 
@@ -412,7 +412,7 @@ Invoke-WebRequest $url -Method Get -Credential mincom\scsmadm
 <##>
 
 <# Conectarse a un equipo por PS #>
-Enter-PSSession 'sauco.mintic.gov.co' -Credential:'minitc\usr.sccmadm'
+Enter-PSSession 'sauco.aitsoporte.local' -Credential:'minitc\usr.sccmadm'
 <##>
 
 <# Ejecutar test de URL Masivo #>
@@ -493,13 +493,13 @@ https://www.youtube.com/watch?v=vFctB2O2IOI
 
 
 <# Visor de Eventos #>
-Invoke-Command -ComputerName balsamo.mincomunicaciones.gov.co -FilePath E:\Sync\Scripting\PowerShell\Administracion\EventLogs.ps1
+Invoke-Command -ComputerName balsamo.aitsoporte.local -FilePath E:\Sync\Scripting\PowerShell\Administracion\EventLogs.ps1
 <##>
 
 <# Copy EventLogs #>
-Test-Path \\balsamo.mincomunicaciones.gov.co\c$
-Get-Item \\balsamo.mincomunicaciones.gov.co\c$\Windows\System32\winevt\Logs\*
-robocopy \\balsamo.mincomunicaciones.gov.co\c$\Windows\System32\winevt\Logs\ E:\Logs\Balsamo\Logs_BALSAMO_evtx /e /v /R:5 /W:9 /LOG:E:\Logs\Copy_Logs_BALSAMO_evtx_110420181036.log
+Test-Path \\balsamo.aitsoporte.local\c$
+Get-Item \\balsamo.aitsoporte.local\c$\Windows\System32\winevt\Logs\*
+robocopy \\balsamo.aitsoporte.local\c$\Windows\System32\winevt\Logs\ E:\Logs\Balsamo\Logs_BALSAMO_evtx /e /v /R:5 /W:9 /LOG:E:\Logs\Copy_Logs_BALSAMO_evtx_110420181036.log
 Test-Path F:\Logs\Logs_BALSAMO_csv\
 Get-Item F:\Logs\Logs_BALSAMO_csv\*
 Remove-Item F:\Logs\Logs_BALSAMO_csv\*
@@ -509,14 +509,14 @@ Get-WinEvent -Path E:\Logs\Balsamo\Logs_BALSAMO_evtx\System.evtx | Export-Csv -L
 <##>
 
 <# Copy Logs SCCM #>
-Test-Path '\\balsamo.mincomunicaciones.gov.co\c$\Windows\CCM\Logs'
-robocopy \\balsamo.mincomunicaciones.gov.co\c$\Windows\CCM\Logs\ E:\Logs\Balsamo\Logs_BALSAMO_sccm /e /v /R:5 /W:9 /LOG:E:\Logs\Copy_Logs_BALSAMO_sccm_110420181105.log
+Test-Path '\\balsamo.aitsoporte.local\c$\Windows\CCM\Logs'
+robocopy \\balsamo.aitsoporte.local\c$\Windows\CCM\Logs\ E:\Logs\Balsamo\Logs_BALSAMO_sccm /e /v /R:5 /W:9 /LOG:E:\Logs\Copy_Logs_BALSAMO_sccm_110420181105.log
 <##>
 
 <# Copy EventLogs #>
 Clear-Host
 $servidor1 = "balsamo"
-$servidor2 = ".mincomunicaciones.gov.co"
+$servidor2 = ".aitsoporte.local"
 $servidor3 = $servidor1 + $servidor2
 $directorio1 = $servidor1 + "_evtx"
 $directorio2 = $servidor1 + "_csv"
@@ -542,8 +542,8 @@ Get-WinEvent -Path E:\Logs\$servidor1\Logs_$directorio1\Application.evtx | Expor
 Get-WinEvent -Path E:\Logs\$servidor1\Logs_$directorio1\System.evtx | Export-Csv -LiteralPath F:\Logs\Logs_$directorio2\System.csv -NoTypeInformation
 <##>
 
-Invoke-Command -ComputerName curcuma.mintic.gov.co {ping maiz}
-Invoke-Command -ComputerName curcuma.mintic.gov.co {Test-Path \\maiz\PCClient}
+Invoke-Command -ComputerName curcuma.aitsoporte.local {ping maiz}
+Invoke-Command -ComputerName curcuma.aitsoporte.local {Test-Path \\maiz\PCClient}
 
 
 <# Hash #>

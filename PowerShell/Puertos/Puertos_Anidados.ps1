@@ -1,7 +1,7 @@
 <# Inicio for anidado 2 #>
 
 Clear-Host
-$servidores = @("CURCUMA.mintic.gov.co","violeta.mincomunicaciones.gov.co")
+$servidores = @("CURCUMA.aitsoporte.local","violeta.aitsoporte.local")
 $puertos = @(135, 139, 445)
 For ($i=0; $i -lt $servidores.Length; $i++){
     For ($j=0; $j -lt $puertos.Length; $j++){
@@ -16,7 +16,7 @@ For ($i=0; $i -lt $servidores.Length; $i++){
 <# 1 #>
 Clear-Host
 $rutaLog = "C:\OM\Test\LogTest.log"
-$servidores = @("CURCUMA.mintic.gov.co","violeta.mincomunicaciones.gov.co")
+$servidores = @("CURCUMA.aitsoporte.local","violeta.aitsoporte.local")
 $puertos = @(135, 139, 445)
 For ($i=0; $i -lt $servidores.Length; $i++){
     For ($j=0; $j -lt $puertos.Length; $j++){

@@ -9,6 +9,6 @@ Set-Item WSMan:\localhost\Client\TrustedHosts "Destkop, Test"
 Get-Item WSMan:\localhost\Client\TrustedHosts
 #>
 
-Enter-PSSession 'camamila.mincomunicaciones.gov.co' -Credential:'mincom\sccmadm'
-Enter-PSSession 'camamila.mincomunicaciones.gov.co' -Port 5986 -Credential:'mincom\sccmadm'
-Enter-PSSession 'curcuma.mintic.gov.co' -Credential:'mintic\usr.sccmadm'
+Enter-PSSession 'camamila.aitsoporte.local' -Credential:'mincom\sccmadm'
+Enter-PSSession 'camamila.aitsoporte.local' -Port 5986 -Credential:'mincom\sccmadm'
+Enter-PSSession 'curcuma.aitsoporte.local' -Credential:'mintic\usr.sccmadm'
